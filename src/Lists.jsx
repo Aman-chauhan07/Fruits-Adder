@@ -25,7 +25,7 @@ function Lists() {
       <ul>
         {fruits.map((fruit, index) => (
           <li key={index} 
-          onDoubleClick={()=>removefood(index)
+          onClick={()=>removefood(index)
             }
            style={{ cursor: "pointer" }}
            >
